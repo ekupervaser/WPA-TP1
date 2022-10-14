@@ -38,12 +38,7 @@ main {
   flex-direction: column;
   text-align: center;
   background-color: #d4c1ec;
-  background: rgba(255, 255, 255, 0.2);
   border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 h1 {
@@ -58,7 +53,7 @@ h1 {
 
 input {
   height: 40px;
-  border-radius: 4px 0 0 4px;
+  border-radius: 4px;
   padding: 10px;
   width: 90%;
   margin: auto;
@@ -70,7 +65,7 @@ button {
   background-color: #736ced;
   border: none;
   color: whitesmoke;
-  border-radius: 0 4px 4px 0;
+  border-radius: 4px;
   width: 90%;
   margin-inline: auto;
 }
@@ -105,6 +100,11 @@ ul {
     width: 38%;
     max-width: 600px;
     height: 90%;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
   }
 
   #form {
@@ -118,11 +118,13 @@ ul {
   input {
     width: 100%;
     border: 1px solid #736ced;
+    border-radius: 4px 0 0 4px;
   }
 
   button {
     margin: 0;
     width: 40%;
+    border-radius: 0 4px 4px 0;
   }
 
   #show {
@@ -146,4 +148,3 @@ ul {
   }
 
   }
-}
