@@ -75,6 +75,13 @@ button {
   margin-inline: auto;
 }
 
+button:hover {
+  color: #736ced;
+  background-color: whitesmoke;
+  border: 1px solid #736ced;
+  cursor: pointer;
+}
+
 #show {
   margin-top: 20px;
 }
@@ -95,25 +102,27 @@ ul {
   }
 
   #card {
-    width: 30%;
+    width: 38%;
+    max-width: 600px;
     height: 90%;
   }
 
   #form {
     flex-direction: row;
     align-items: center;
-    width: 60%;
+    width: 80%;
     justify-content: center;
     margin: auto;
   }
 
   input {
-    width: 80%;
+    width: 100%;
     border: 1px solid #736ced;
   }
 
   button {
     margin: 0;
+    width: 40%;
   }
 
   #show {
@@ -134,5 +143,7 @@ ul {
       margin-top: 10%;
       line-height: 40px;
     }
+  }
+
   }
 }
