@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Ezequiel Kupervaser - PWA</title>
+  </head>
+  <body>
+    <video id="video" autoplay loop muted>
+        <source src="/img/Satellite - 86063.mp4" type="video/mp4"></source>
+    </video>
+    <main>
+      <div id="card">
+        <h1>Clima</h1>
+
+        <div id="form">
+          <input
+            type="text"
+            name="userInput"
+            id="userInput"
+            label="userInput"
+          />
+          <button id="boton">Buscar</button>
+        </div>
+
+        <div id="show">
+          <h2 id="lugar"></h2>
+          <p id="weather-main"></p>
+          <p id="temp"></p>
+          <div id="imagen-icono"></div>
+          <ul>
+            <li id="st"></li>
+            <li id="min"></li>
+            <li id="max"></li>
+            <li id="humedad"></li>
+            <li id="pa"></li>
+            <li id="vv"></li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <script src="scripts/fetch.js"></script>
+  </body>
+</html>
+
+<img src="" alt="" />
